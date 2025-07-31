@@ -1,12 +1,12 @@
 # Heart-Disease-Prediction
 
-#Overview
+****Overview****
 
 This project is a web-based application built with Streamlit to predict the likelihood of heart disease based on patient attributes. It uses a Random Forest Classifier trained on a heart disease dataset (heart.csv) with 303 records and 13 features. The app allows users to input patient details (e.g., age, sex, cholesterol) and receive a prediction of heart disease risk along with the probability.
 
 The project includes data exploration (via a Jupyter Notebook) and a deployable Streamlit app, demonstrating machine learning in healthcare.
 
-#Features
+****Features****
 
 
 
@@ -26,7 +26,7 @@ Dataset: Based on heart.csv, containing features like Age, Sex, ChestPainType, R
 
 Deployment: Designed for local execution or deployment on Streamlit Cloud.
 
-#Repository Structure
+****Repository Structure****
 
 
 
@@ -54,7 +54,7 @@ rf_model.pkl (optional): Pre-trained Random Forest model.
 
 .gitignore: Excludes unnecessary files (e.g., __pycache__).
 
-#Installation
+****Installation****
 
 
 
@@ -90,7 +90,7 @@ streamlit run app.py
 
 Open the provided URL (e.g., http://localhost:8501) in a browser.
 
-#Usage
+****Usage****
 
 
 
@@ -110,7 +110,7 @@ Click Predict to see the heart disease risk and probability.
 
 Optionally, view the dataset preview in the app.
 
-#Dataset
+****Dataset****
 
 The heart.csv dataset contains 303 records with the following features:
 
@@ -164,7 +164,7 @@ ST_Slope: Slope of the peak exercise ST segment (Up, Flat, Down).
 
 HeartDisease: Target (0 = no heart disease, 1 = heart disease).
 
-#Model
+****Model****
 
 
 
@@ -186,7 +186,7 @@ Output: Predicts binary outcome (0 or 1) and probability of heart disease.
 
 
 
-#Future Improvements
+****Future Improvements****
 
 
 
